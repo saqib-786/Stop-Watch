@@ -1,0 +1,117 @@
+#stop-watch{ 
+    width: 600px;
+    height: 600px;
+    background-color: black;
+    margin: 20px auto;
+    margin-top: 80px;
+    border-radius: 100%;
+    border: 5px solid gold;
+    transition-property: border;
+    transition-duration: 2s;
+
+
+}
+#stop-watch:hover{
+    border: 8px solid rgb(65,105,225);
+    cursor: pointer;
+
+}
+body{
+    background-color: #20B2AA	;
+}
+img{
+    position: relative;
+    left: 220px;
+    transition-property: width, height;
+    transition-duration: 2s,2s;
+    cursor: pointer;
+}
+#led{
+    text-align: center;
+    margin-left: 80px;
+    width: 400px;
+    box-sizing: border-box;
+    border: 5px solid yellow;
+    border-radius: 30px;
+    
+}
+h1{
+    font-size: 50px;
+    color: whitesmoke;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px;
+    
+    
+    
+}
+
+
+button{
+    position: relative;
+    left: 60px;
+    top: 50px;
+    width: 100px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 35px;
+    margin: 20px;
+    border: hidden;
+    color: #B8860B;
+    cursor: pointer;
+    transition-property: border-radius;
+    transition-duration: 2s;
+    
+
+}
+h2{
+    color: whitesmoke;
+    margin: 20px auto;
+    padding-top: 50px;
+
+}
+P{
+    color: whitesmoke;
+    margin: 20px;
+    padding-top: 50px;
+    font-family: 'Notable', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    transition-property: color;
+    transition-duration: 2s;
+    cursor: pointer;
+    
+    
+
+}
+button:hover{
+    background-color: red;
+    color: whitesmoke;
+    border-radius: 10%;
+    
+    
+    
+}
+button:active{
+    background-color: green;
+    color: whitesmoke;
+    font-size: 15px;
+    
+}
+button:focus{
+    outline: 0px;
+}
+
+    
+
+    
+img:hover{
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    
+}
+p:hover{
+    color: goldenrod;
+}

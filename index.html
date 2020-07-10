@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap-grid.css">
+    <link href="https://fonts.googleapis.com/css2?family=Galada&family=Notable&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container" id="stop-watch">
+        <div class="row">
+            <h2>LAOPAD</h2>
+        </div>
+        <div class="col" id="led">
+            <h1 id="hours">00</h1>
+            <h1 id="minuts">.00</h1>
+            <h1 id="seconds">.00</h1>
+            <h1 id="miliSec">.00</h1>
+        </div>
+        
+            <div class="col">
+                <button onclick="start()" onclick="disable()" onclick="disable()" id="startbtn">START</button>
+                <button onclick="pause()" id="pushe">PAUSE</button>
+                <button onclick="reset()" id="stop">RESET</button>
+                <p>MADE BY SAQIB ALI</p>
+                <img src="Images/lion2.png" width="80px" height="80px">
+            </div>
+
+        
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
